@@ -1,1 +1,2 @@
-ansible-tower-openshift-setup*
+ansible-tower-openshift-setup*/
+*.log
