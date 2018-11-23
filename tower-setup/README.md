@@ -8,9 +8,10 @@ https://developers.redhat.com/blog/2018/10/26/installing-and-managing-ansible-to
 
 ## Setup instructions
 
-1. Login to your OpenShift cluster
+1. Login to your OpenShift cluster and create a project for Ansible Tower
     ```
     $ oc login https://myURL:443 -u myUser -p myPassword
+    $ oc new-project tower
     ```
 
 1. Create persitent volume claim. Thefore, copy this snippet in a file called `postgres-nfs-pvc.yml` or take the file from this repository.
