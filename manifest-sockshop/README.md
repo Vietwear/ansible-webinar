@@ -1,0 +1,5 @@
+# Manifests
+
+```
+$ oc create -f .
+```
