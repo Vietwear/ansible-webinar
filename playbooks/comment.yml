@@ -1,0 +1,10 @@
+- hosts: webservers
+
+  tasks:
+  - include_role:
+      name: jetzlstorfer.dynatrace_problem_comment
+    vars: 
+      problem_id: '-4385169742278167284_1542104332986'
+      comment: 'Hello from Ansible'
+      user: 'juergen.etzlstorfer@dynatrace.com'
+      context: 'Ansible'
