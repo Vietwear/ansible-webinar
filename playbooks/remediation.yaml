@@ -69,3 +69,10 @@
         body: "{ \"comment\": \"Invoked remediation action failed. \", \"user\": \"{{commentuser}}\", \"context\": \"Ansible Tower\" }"
       when: state == "OPEN" and (result.status != 200 and result.status != 201 and result.status != 202)
       
+    - name: push problem closed comment to dynatrace
+      uri:
+        url: "{{dtcommentapiurl}}"
+        method: POST
+        body_format: json
+        body: "{ \"comment\": \"Problem closed.\", \"user\": \"{{commentuser}}\", \"context\": \"Ansible Tower\" }"
+      when: state == "RESOLVED"
