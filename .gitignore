@@ -1,5 +1,6 @@
 ansible-tower-openshift-setup*/
 *.log
 ~$*.pptx
+*.pptx
 *.retry
 *.pem
