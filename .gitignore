@@ -4,3 +4,4 @@ ansible-tower-openshift-setup*/
 *.pptx
 *.retry
 *.pem
+*.mp4
