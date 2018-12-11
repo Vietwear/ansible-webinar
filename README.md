@@ -16,10 +16,16 @@ Demo execution from you local machine:
 ```
 $ ansible-playbook oneagent.yml -i inventory --private-key ansible-test.pem --become
 ```
-(--become executes the role with root privileges)
+(`--become` executes the role with root privileges)
 
 ## Self-healing applications with Ansible and Dynatrace
 
+### Application
 
+The application shown in the demo can be found in the `manifest-sockshop` folder.
+
+### Playbooks
+
+All playbooks can be found in the `playbooks` folder.
 
 
