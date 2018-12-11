@@ -3,15 +3,26 @@
   hosts: localhost
   vars:
     relative_time: "hour"
+    #tenant_url: "https://nzf49962.live.dynatrace.com"
+    #api_token: "InCq8DYkTvOiwtywNhhfo"
+    #pid: "-9090626823848773395_1544517660000"
 
   tasks:
     - name: push comment to dynatrace
-      uri:
-        url: "{{dtcommentapiurl}}"
-        method: POST
-        body_format: json
-        body: "{ \"comment\": \"Remediation playbook started.\", \"user\": \"{{commentuser}}\", \"context\": \"Ansible Tower\" }"
-      when: state == "OPEN"
+      include_role:
+        name: jetzlstorfer.dynatrace_problem_comment
+        # name: dynatrace_innovationlab.dynatrace_problem_comment
+      vars: 
+        problem_id: "{{pid}}"
+        comment: 'Hello from Ansible'
+        user: 'juergen.etzlstorfer@dynatrace.com'
+        context: 'Ansible'
+      # uri:
+      #   url: "{{dtcommentapiurl}}"
+      #   method: POST
+      #   body_format: json
+      #   body: "{ \"comment\": \"Remediation playbook started.\", \"user\": \"{{commentuser}}\", \"context\": \"Ansible Tower\" }"
+      #when: state == "OPEN"
 
     - name: get entityId
       set_fact:
