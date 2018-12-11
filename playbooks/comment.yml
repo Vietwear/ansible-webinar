@@ -2,8 +2,8 @@
 
   tasks:
   - include_role:
-      # name: jetzlstorfer.dynatrace_problem_comment
-      name: dynatrace_innovationlab.dynatrace_problem_comment
+      name: jetzlstorfer.dynatrace_problem_comment
+      # name: dynatrace_innovationlab.dynatrace_problem_comment
     vars: 
       problem_id: '-9090626823848773395_1544517660000'
       comment: 'Hello from Ansible'
