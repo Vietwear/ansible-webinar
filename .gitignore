@@ -5,3 +5,7 @@ ansible-tower-openshift-setup*/
 *.retry
 *.pem
 *.mp4
+*inventory*
+oneagent/
+terraform-*
+deployment/
