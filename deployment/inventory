@@ -1,5 +1,0 @@
-[webservers]
-54.219.179.136
-
-[all:vars]
-ansible_user=ec2-user
