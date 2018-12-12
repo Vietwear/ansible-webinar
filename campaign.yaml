@@ -10,6 +10,8 @@
       url: "{{carts_promotion_url}}/{{promotion_rate}}"
       method: GET
 
+  ### this task can be replaced by the dynatrace deployment event role
+  ### 
   - name: update promotion configuration for {{dt_app}} service
     uri:
       url: "{{dteventapiurl}}"
