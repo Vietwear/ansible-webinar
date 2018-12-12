@@ -24,6 +24,10 @@ $ ansible-playbook oneagent.yml -i inventory --private-key ansible-test.pem --be
 
 The application shown in the demo can be found in the `manifest-sockshop` folder.
 
+### Load generation
+
+A simple load generation script can be found in the `load-generation` folder.
+
 ### Playbooks
 
 Playbooks used in the demo
