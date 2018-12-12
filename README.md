@@ -1,5 +1,7 @@
 # Webinar: Deployment Automation and Self-Healing with Dynatrace & Ansible
 
+![ansible + dynatrace](./assets/ansible+dynatrace.jpg)
+
 In this repo you will find resources that have been presented in the joint webinar between Dynatrace and Ansible.
 
 Link to the original webinar registration:
