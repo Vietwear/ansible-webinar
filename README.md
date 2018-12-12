@@ -26,7 +26,10 @@ The application shown in the demo can be found in the `manifest-sockshop` folder
 
 ### Playbooks
 
-All playbooks can be found in the `playbooks` folder.
+Playbooks used in the demo
+- `remediation.yml`: generic remediation playbook that is called via the Ansible Tower problem notification integration from Dynatrace
+- `campaign.yml`: playbook to control the release and configuration of a promotional campaign. 
+- `comment.yml`: example playbook showcasing how to use the Dynatrace comment role to add comments to a Dynatrace problem ticket.
 
 ## Links & Resources
 
