@@ -48,3 +48,5 @@ https://galaxy.ansible.com/dynatrace and
 https://galaxy.ansible.com/dynatrace_innovationlab 
 - Dynatrace free trial 
 http://dynatrace.com/trial 
+
+![dynatrace trial](./assets/dynatrace-trial.png)
