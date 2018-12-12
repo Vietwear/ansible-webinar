@@ -2,7 +2,7 @@
 
 ![ansible + dynatrace](./assets/ansible+dynatrace.jpg)
 
-In this repo you will find resources that have been presented in the joint webinar between Dynatrace and Ansible.
+In this repo you will find resources that have been presented in the joint webinar between Dynatrace and Ansible on December 11, 2018.
 
 Link to the original webinar registration:
 https://www.ansible.com/resources/webinars-training/deployment-automation-and-self-healing-with-dynatrace-and-ansible
