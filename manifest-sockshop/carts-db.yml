@@ -10,7 +10,6 @@ spec:
   resources:
     requests:
       storage: 100Mi
-  storageClassName: gold
 ---
 apiVersion: extensions/v1beta1
 kind: Deployment
