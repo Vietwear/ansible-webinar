@@ -7,6 +7,7 @@ In this repo you will find resources that have been presented in the joint webin
 Link to the original webinar registration:
 https://www.ansible.com/resources/webinars-training/deployment-automation-and-self-healing-with-dynatrace-and-ansible
 
+(Update Dec 17, 2018) The recording can be found here: https://www.ansible.com/resources/webinars-training/deployment-automation-and-self-healing-dynatrace-and-ansible
 
 ## Deployment Automation
 
