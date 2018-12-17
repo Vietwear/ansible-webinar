@@ -44,6 +44,7 @@ Playbooks used in the demo
 https://www.dynatrace.com/news/blog/set-up-ansible-tower-with-dynatrace-to-enable-your-self-healing-applications/ 
 - Self-healing: Ansible Tower fixes Dynatrace-detected problems in real time https://www.dynatrace.com/news/blog/self-healing-ansible-tower-fixes-dynatrace-detected-problems-in-real-time/ 
 - Enable self-healing applications with Ansible and Dynatrace https://www.ansible.com/blog/enable-self-healing-applications-with-ansible-and-dynatrace (Ansible) or https://www.dynatrace.com/news/blog/enable-self-healing-applications-with-ansible-and-dynatrace/ (Dynatrace)
+- Slides from the webinar: [slides.pdf](./assets/slides.pdf)
 - Dynatrace roles in Ansible Galaxy
 https://galaxy.ansible.com/dynatrace and 
 https://galaxy.ansible.com/dynatrace_innovationlab 
